@@ -1,0 +1,125 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  /* font-family: "Poppins", sans-serif; */
+  font-family: "Roboto", sans-serif;
+}
+
+.header {
+  display: flex;
+  background-color: #d92f35;
+}
+
+.header .container {
+  width: 100vw;
+  display: flex;
+  justify-content: space-between;
+}
+
+.logo-image {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+}
+
+.logo-image img {
+  max-width: 200px;
+  align-items: center;
+}
+
+.header .login-content {
+  color: white;
+  background-color: #d92f35;
+  margin-top: 15px;
+  width: 300px;
+  height: 80%;
+}
+
+.header .login-content h3 {
+  text-decoration: underline;
+}
+
+input {
+  padding: 4px;
+  border-radius: 8px;
+  border: none;
+  margin-top: 5px;
+  margin-left: 20px;
+  width: 130px;
+}
+
+/* section */
+
+.background-image-iesb {
+  background-color: blueviolet;
+  width: 100vw;
+  height: 300px;
+}
+
+.background-image-iesb,
+img {
+  width: 100%;
+}
+.background-image-iesb,
+h1 {
+  text-align: right;
+  margin-bottom: 220px;
+  margin-right: 2rem;
+  color: white;
+}
+
+/* nav */
+
+.nav {
+  text-decoration: underline;
+}
+
+.nav,
+ul {
+  display: flex;
+  margin-top: -5rem;
+  width: 100vw;
+  list-style: none;
+  justify-content: space-around;
+}
+
+/* section */
+
+.container-section {
+  display: grid;
+  grid-template-columns: 3fr 1fr;
+  grid-template-rows: 1fr;
+  padding: 2rem;
+}
+
+.container-section p {
+  margin-top: 1rem;
+}
+
+section {
+  max-width: 600px;
+}
+
+.icons {
+  justify-content: space-between;
+  width: 250px;
+  background-color: brown;
+  height: 60px;
+  bottom: 0;
+}
+
+/* footer */
+
+footer {
+  background-color: #da3f3f;
+  font-family: "Poppins", sans-serif;
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 5rem;
+}
